@@ -1,3 +1,9 @@
 .grid {
   margin: 100px 0 0;
+  display: block;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }

@@ -1,5 +1,5 @@
 .node {
-  width: 25px;
+  width: 2%;
   height: 25px;
   outline: 1px solid rgb(175, 216, 248);
   display: inline-block;
@@ -13,6 +13,10 @@
   background-color: green;
 }
 
+.node-clear {
+  background-color: white;
+}
+
 .node-visited {
   animation-name: visitedAnimation;
   animation-duration: 1.5s;
@@ -22,6 +26,10 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
+}
+
+.node-visited-noDelay {
+  background-color: rgba(0, 190, 218, 0.75);
 }
 
 @keyframes visitedAnimation {

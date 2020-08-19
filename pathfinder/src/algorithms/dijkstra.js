@@ -43,7 +43,7 @@ function getUnvisitedNeighbors(node, grid) {
   return neighbors.filter((neighbor) => !neighbor.isVisited);
 }
 
-function getAllNodes(grid) {
+ function getAllNodes(grid) {
   const nodes = [];
   for (const row of grid) {
     for (const node of row) {
